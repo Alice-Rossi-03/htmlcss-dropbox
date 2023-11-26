@@ -248,3 +248,28 @@ button:hover{
     margin-bottom: 150px;
 }
 
+.large-container figure{
+    width: 60%;
+}
+
+.large-container figure img{
+    width: 100%;
+}
+
+.large-container .partner-dropbox{
+    width: calc(40% - 30px);
+    margin-block: 30px;
+}
+
+.large-container .partner-dropbox p{
+    margin-block: 20px;
+    color: gray;
+}
+
+#findPartner-buttton{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 5px;
+}
