@@ -116,6 +116,11 @@ button:hover{
     margin: 0 auto;
 }
 
+.container-flex{
+    display: flex;
+    gap: 30px;
+}
+
 .large-container h2{
     margin-bottom: 30px;
     font-size: 30px;
@@ -144,19 +149,23 @@ button:hover{
 
 .large-container .card{ 
     width: calc(100% / 3 - 20px);
-    padding: 20px;
-    border: 1px solid black;
+    border: 1px solid lightgrey; 
 }
 
 .margin-top{
     margin-top: 150px;
 }
 
-.large-container .card .top.card{
+.large-container .card .top-card, .large-container .large-card .top-card{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-block: 5px;
+    margin: 10px;
+    gap: 5px;
+}
+
+.main-card{
+    padding: 0 20px 20px 20px;
 }
 
 .main-card ul li{
@@ -202,4 +211,40 @@ button:hover{
 
 .main-card hr{
     margin-block: 20px;
+    width: 20%; 
+    color: lightgray;
 }
+
+.card hr{
+    color: lightgrey;
+}
+
+.large-container .card .top-card span{
+    font-size: 15px;
+}
+
+.large-card{
+    margin-top: 30px;
+    border: 1px solid lightgray;
+}
+
+.large-card .main-card div p{
+    margin-top: 30px;
+}
+
+.large-card .main-card .right-card{
+    width: 30%;
+}
+
+.large-card .main-card .left-card{
+    width: calc(70% - 30px);
+}
+
+.large-card .main-card .left-card div, .large-card .main-card .left-card p{
+    font-size: 10px;
+}
+
+.margin-bottom{
+    margin-bottom: 150px;
+}
+
