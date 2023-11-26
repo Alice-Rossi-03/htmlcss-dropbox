@@ -186,3 +186,20 @@ button:hover{
     margin-bottom: 50px;
     font-size: 10px;
 }
+
+.purchase-now{
+    font-size: 10px;
+}
+
+.keypoints-title{
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.icon-filled-blue{
+    fill: rgb(40, 95, 246);
+}
+
+.main-card hr{
+    margin-block: 20px;
+}
