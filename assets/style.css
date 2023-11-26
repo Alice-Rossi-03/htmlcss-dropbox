@@ -114,32 +114,75 @@ button:hover{
 .large-container{
     width: 60%;
     margin: 0 auto;
-    padding-block: 150px;
 }
 
 .large-container h2{
     margin-bottom: 30px;
+    font-size: 30px;
 }
 
-.large-container div{
+.large-container:first-child div{ 
     display: flex;
     gap: 30px;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .choice{
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
 }
 
 .choice-one{
-    border: 2px solid rgb(40, 95, 246);
+    border: 4px solid rgb(40, 95, 246);
 }
 
 .choice-two{
     border: 1px solid gray; 
 }
 
+.large-container .card{ 
+    width: calc(100% / 3 - 20px);
+    padding: 20px;
+    border: 1px solid black;
+}
 
+.margin-top{
+    margin-top: 150px;
+}
 
+.large-container .card .top.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 5px;
+}
+
+.main-card ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 10px; 
+}
+
+.main-card button{
+    font-size: 10px;
+    width: 100%;
+    margin-block: 20px;
+
+}
+
+.main-card h3{
+    margin-block: 20px;
+}
+
+.main-card .cost{
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.main-card .per-month{
+    color: gray;
+    margin-bottom: 50px;
+    font-size: 10px;
+}
