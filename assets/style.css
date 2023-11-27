@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1pz dashed black;
 }
 
 html{
@@ -11,30 +10,32 @@ html{
 
 nav{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding-inline: 20px;
-    padding-block: 20px;
+    /* padding-block: 20px; */
 }
 
 nav div ul {
     display: flex;
-    margin: 10px;
+    /* margin: 10px; */
     gap: 20px;
-    align-items: center;
+    align-items: center; 
 }
 
 nav div ul li a{
     color: gray;
     text-decoration: none;
+    line-height: 90px;
 }
 
 nav div ul li{
     list-style-type: none;
 }
 
-nav div ul li:hover{
-    border-bottom: 1px solid black; 
-}
+nav div ul li:hover:not(img #not-underlined){ 
+    border-bottom: 3px solid black; 
+} 
 
 button{
     background-color: rgb(40, 95, 246);
@@ -65,7 +66,7 @@ button:hover{
 }
 
 .dropbox-presentation div p{
-    color: gray;
+    color: black;
     margin-bottom: 30px;
     padding-top: 40px;
     font-size: 13px;
@@ -178,7 +179,6 @@ button:hover{
     font-size: 10px;
     width: 100%;
     margin-block: 20px;
-
 }
 
 .main-card h3{
@@ -272,4 +272,14 @@ button:hover{
     border: 1px solid gray;
     color: gray;
     border-radius: 5px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 90px; 
+    background-color: white;
+    z-index: 999;
 }
