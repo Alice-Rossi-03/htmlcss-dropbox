@@ -314,12 +314,12 @@ header{
     font-size: 13px;
 }
 
-#width-60{
+.width-60{
     width: 60%;
 }
 
-.large-container #width-60 a {
-    margin-top: 40px;
+.large-container .width-60 div {
+    margin-block: 40px; 
     font-size: 13px;
 }
 
@@ -327,7 +327,7 @@ header{
     width: 100%;
     /* border: 1px dashed black; */
     display: flex;
-    margin-top: 60px; 
+    /* margin-top: 60px;  */
 }
 
 .company-container{
@@ -419,3 +419,119 @@ header{
     color: gray;
     margin-top: 20px; 
 }
+
+.lightblue-background{
+    background-color: #b4d0e7; 
+}
+
+.flex-space-between{
+    display: flex; 
+    justify-content: space-between;
+    padding-block: 30px; 
+    align-items: center;
+}
+
+.flex-space-between h2{
+    color: purple;
+    width: 50%; 
+}
+
+#bring-businessDropbox{
+    background-color: rgba(255, 255, 255, 0.5); 
+    color: black; 
+}
+
+#bring-businessDropbox:hover{
+    background-color: rgba(255, 255, 255, 0.5); 
+    color: rgb(62, 62, 62);  
+}
+
+.large-container .menu{
+    width: calc(100% / 5 - 20px);
+}
+
+.large-container .menu ul li{
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 160%;
+}
+
+.large-container .menu ul li a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.large-container .menu h5{
+    color: white; 
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: black; 
+    padding-top: 50px; 
+    padding-bottom: 20px; 
+    margin-top: 70px;
+}
+
+.large-container .footer-hr{
+    width: 10%;
+    color: lightgrey;
+    margin-block: 20px;
+}
+
+footer .large-container .language{
+    font-size: 12px;
+    color: rgb(128 128 128);
+    line-height: 100%;
+}
+
+.separator{
+    margin-block: 20px;
+}
+
+.faq{
+    position: relative;
+    margin-block: 45px;
+}
+
+.faq svg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    margin-block: 20px;
+}
+
+.faq .down{
+    opacity: 100%;
+}
+
+.faq .up{
+    opacity: 0%;
+}
+
+.faq:hover .down{
+    opacity: 0%;
+}
+
+.faq:hover .up{
+    opacity: 100%;
+}
+
+.faq p{
+    display: none;
+    margin-top: 20px;
+    color: gray;
+    font-size: 15px;
+}
+
+.faq:hover p{
+    display: block;
+} 
+
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
