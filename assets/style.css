@@ -84,7 +84,6 @@ button:hover{
 .container div:last-child {
     position: relative;
     width: calc(100% - 30%);
-
 }
 
 .container:nth-child(2) div img{
@@ -119,7 +118,7 @@ button:hover{
 
 .container-flex{
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
 .large-container h2{
@@ -127,24 +126,25 @@ button:hover{
     font-size: 30px;
 }
 
-.large-container:first-child div{ 
+.large-container .purchase-methods{  
     display: flex;
     gap: 30px;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.choice{
+.large-container .purchase-methods .choice{
     width: 15px;
     height: 15px;
     border-radius: 50%;
+    display: inline-block;
 }
 
-.choice-one{
+.large-container .purchase-methods .choice-one{
     border: 4px solid rgb(40, 95, 246);
 }
 
-.choice-two{
+.large-container .purchase-methods .choice-two{
     border: 1px solid gray; 
 }
 
@@ -283,3 +283,38 @@ header{
     background-color: white;
     z-index: 999;
 }
+
+.mini-article{
+    width: calc(100% / 3 - 20px); 
+    margin-bottom: 30px;
+}
+
+.flex-container-and-wrap{ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mini-article figure{
+    width: 100%;
+}
+
+.mini-article figure img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.mini-article h3{
+    margin-block: 20px; 
+}
+
+.mini-article p{
+    line-height: 140%;
+    color: gray; 
+    font-size: 13px;
+}
+
+.width-60{
+    min-width: 60%;
+}
+
