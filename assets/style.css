@@ -332,7 +332,8 @@ header{
 
 .company-container{
     width: calc(100% / 3); 
-    height: 395.66px;
+    aspect-ratio: 1/1; 
+    /* height: 395.66px; */
     display: flex;
     flex-wrap: wrap; 
     /* border: 1px dashed black; */ 
