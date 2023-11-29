@@ -16,6 +16,11 @@ nav{
     /* padding-block: 20px; */
 }
 
+nav:last-child div{ 
+    display: flex;
+    gap: 20px;
+}
+
 nav div ul {
     display: flex;
     /* margin: 10px; */
@@ -45,13 +50,18 @@ button{
     padding: 10px;
 }
 
+#lets-start{
+    height: 40px;
+    align-self: center;
+}
+
 button:hover{
     opacity: 75%;
 }
 
 .blue-background{
     background-color: rgb(185, 207, 229);
-    padding-block: 30px;
+    padding-top: 30px;
 }
 
 .dropbox-presentation{
@@ -67,8 +77,8 @@ button:hover{
 
 .dropbox-presentation div p{
     color: black;
-    margin-bottom: 30px;
-    padding-top: 40px;
+    margin-bottom: 20px;
+    /* padding-top: 40px; */
     font-size: 13px;
     line-height: 140%;
 }
@@ -86,18 +96,28 @@ button:hover{
     width: calc(100% - 30%);
 }
 
-.container:nth-child(2) div img{
-    position: absolute;
-    top: 40px;
+.container .jumbo{
+    margin-bottom: -40px;
+}
+
+.padding-top{
+    padding-top: 40px;
+}
+
+.container:last-child div img{
+    /* margin-bottom: -40px; */
+    /* position: absolute; */
+    /* top: 40px; */
     object-fit: contain;
     display: flex;
-    width: 90%;
+    width: 100%;
 }
 
 .container div div a{
     color: gray;
     text-decoration: none;
 }
+
 
 .container div div a:hover{
     border-bottom: 1px solid black; 
@@ -350,10 +370,14 @@ header{
     align-items: center;
 }
 
-.company-container .company svg{
-    fill: white;
+.company-container .company img{ 
+    filter: invert(100%);
     height: 50%;    
-    width: 50%;    
+    width: 50%;
+}
+
+#florida-uni{
+    height: fit-content;
 }
 
 /* bg colors */
